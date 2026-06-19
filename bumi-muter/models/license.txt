@@ -1,0 +1,11 @@
+Model Information:
+* title:	Struktur Bumi
+* source:	https://sketchfab.com/3d-models/struktur-bumi-8a3cfde5f1424240ac3620f55dcb8483
+* author:	yukim4n (https://sketchfab.com/yukim4n)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Struktur Bumi" (https://sketchfab.com/3d-models/struktur-bumi-8a3cfde5f1424240ac3620f55dcb8483) by yukim4n (https://sketchfab.com/yukim4n) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
