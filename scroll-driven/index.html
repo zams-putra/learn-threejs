@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scrol Driven</title>
+<style>
+  * { 
+    margin: 0;
+    box-sizing: border-box;
+ }
+  body { 
+    background: #0a0e14;
+    font-family: 'Helvetica Neue', sans-serif;
+    color: #e8e8e8;
+ }
+ 
+
+  #canvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    pointer-events: none;
+  }
+ 
+
+  .section {
+    position: relative; 
+    z-index: 1;
+    min-height: 100vh; 
+    display: flex; 
+    flex-direction: column;
+    justify-content: center; 
+    padding: 8vw;
+  }
+  .section h1 {
+        font-size: 3rem; 
+        margin: 0 0 12px;
+    }
+  .section p {
+        max-width: 420px;
+        color: #9aa5b1;
+        line-height: 1.6;
+    }
+  .section:nth-child(odd) {
+        align-items: flex-start;
+    }
+  .section:nth-child(even) {
+        align-items: flex-end;
+        text-align: right;
+    }
+  .section:nth-child(even) p {
+        margin-left: auto;
+    }
+ 
+  #progress-bar {
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    height: 3px; 
+    background: #ff7a45;
+    z-index: 10; 
+    transition: width 0.05s linear;
+  }
+</style>
+</head>
+<body>
+ 
+<div id="canvas"></div>
+<div id="progress-bar"></div>
+ 
+
+<section class="section">
+  <h1>Sup yo, I am Batagor</h1>
+  <p>Full-Time Traveler & Part-Time Sleeper. Keep scrolling bro</p>
+</section>
+<section class="section">
+  <h1>Projects</h1>
+  <p>7 Secret recipes for making batagors, and the others things.</p>
+</section>
+<section class="section">
+  <h1>Skills</h1>
+  <p>Cooking, Photography, Editing, Sleeping</p>
+</section>
+<section class="section">
+  <h1>Contact</h1>
+  <p>Lets connect with me in here here and here</p>
+</section>
+
+
+     
+<script type="importmap">
+    {
+    "imports": {
+        "three": "https://cdn.jsdelivr.net/npm/three@v0.149.0/build/three.module.js",
+        "three/addons/": "https://cdn.jsdelivr.net/npm/three@v0.149.0/examples/jsm/"
+    }
+    }
+</script>
+    
+<script type="module" src="app.js"></script>
+</body>
+</html>
